@@ -1,0 +1,9 @@
+@import './style/reset.css';
+@import './style/header.css';
+@import './style/footer.css';
+@import './style/section/section_intro.css';
+@import './style/fonts.css';
+@import './style/section/section_pic_about.css';
+@import './style/section/section_fetured_items.css';
+@import './style/section/section_info_black.css';
+@import './style/section/section_feedback.css';
