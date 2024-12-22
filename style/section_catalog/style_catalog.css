@@ -1,0 +1,79 @@
+.presentation_intro{
+  position: relative;
+  background-color: #f1e4e6; 
+  padding: 60px 230px;
+  font-family: "Lato";
+}
+.presentation__title_i {
+  color: rgba(241, 109, 127, 1);
+  font-size: 24px;
+  font-weight: 700;
+}
+.presentation__container_intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Lato";
+}
+.presentation__breadcrumb_intro {
+  display: flex;
+  color: rgba(99, 99, 99, 1);
+}
+.breadcrumb_intro_item.last {
+  color: #f16d7f;
+  font-weight: 700;
+}
+.features__controls {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 51px 16px 20px 16px;
+  font-family: "Lato";
+  font-size: 14px;
+}
+.controls__button {
+  display: flex;
+  align-items: center;
+  padding-right: 304px
+}
+.controls__button span {
+  padding: 11px;
+  font-weight: 900;
+}
+.controls__sort {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: rgba(111, 110, 110, 1);
+  font-size: 14px;
+}
+.sort__options {
+  display: flex;
+  align-items: center;
+  padding-right: 27px;
+}
+.sort__options p {
+  padding-right: 10px;
+}
+.pagination {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  gap: 16px;
+  padding: 15px 16px;
+  border: 1px solid #ebebeb;
+}
+.pagination__button {
+  height: 14px;
+}
+.pagination__list {
+  display: flex;
+  gap: 20px;
+}
+.pagination__item {
+  color: #c4c4c4;
+  font-weight: 300;
+}
+.pagination__item--selected {
+  color: #f16d7f;
+}
+

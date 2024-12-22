@@ -81,3 +81,15 @@
 .burger_item_elements li:last-child {
     padding-bottom: 0px;
 }
+@media (max-width: 768px) {
+    .intro {
+        height: 368px;
+    }
+    .intro_img_conteiner {
+        max-width: 386px;
+    }
+    .intro_text_conteiner {
+        padding: 138px 34px 138px 39px;
+        font-size: 24px;
+    }
+}

@@ -7,6 +7,9 @@
 }
 .conteiner_pic_about {
     display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .conteiner_pic_about:last-child {
     grid-column: span 3;
@@ -44,4 +47,38 @@
     font-size: 24px;
     font-weight: 700;
     color: rgba(241, 109, 127, 1);
+}
+@media (max-width: 768px) {
+    .pic_about {
+        margin: 20px 16px;
+        grid-template-columns: repeat(3,232px);
+        grid-template-rows: 168px;
+        gap: 20px;
+    }
+    .conteiner_pic_about:nth-child(1) {
+        background-image: url("../../img/section/sectrion_2/for_women.jpg");
+    }
+    .conteiner_pic_about:nth-child(2) {
+        background-image: url("../../img/section/sectrion_2/for_man.jpg");
+    }
+    .conteiner_pic_about:nth-child(3) {
+        background-image: url("../../img/section/sectrion_2/for_kids.jpg");
+    }
+    .conteiner_pic_about:nth-child(4) {
+        background-image: url("../../img/section/sectrion_2/accesories.jpg");
+        
+        height: 116px;
+    }
+    .conteiner_pic_text.one {
+        padding: 59px 39px;
+    }
+    .conteiner_pic_text.two{
+        padding: 57px 61px 60px 61px;
+    }
+    .conteiner_pic_text.tree{
+        padding: 58px 58px 59px 59px;
+    }
+    .conteiner_pic_text.last{
+        padding: 33px 287px;
+    }
 }

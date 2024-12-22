@@ -26,3 +26,9 @@
 .logo_conteiner #logo_second:hover {
     opacity: 0.6;
 }
+@media (max-width: 768px) {
+    .header {
+        padding: 18px 32px;
+    }
+
+}

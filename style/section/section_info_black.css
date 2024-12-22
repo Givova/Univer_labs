@@ -29,3 +29,10 @@
     text-align: center;
     font-weight: 300;
 }
+@media (max-width: 768px) {
+    .info_black {
+        padding: 48px 204px 64px 204px;
+        row-gap: 48px;
+        grid-template-columns: repeat(1,360px);
+    }
+}

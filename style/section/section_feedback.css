@@ -30,7 +30,6 @@
     align-items: center;
     justify-content: center;
     font-family: "Lato";
-    
 }
 .subscribe-title {
     font-size: 24px;
@@ -73,4 +72,20 @@
 }
 .subscribe-button:hover {
     background-color: rgba(224, 92, 110, 1);
+}
+@media (max-width: 768px) {
+    .feedback {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        flex-direction: column;
+        padding: 64px 0px 140px 0px;
+    }
+    .feedback_left_conteiner {
+        padding: 0px 0px 48px 0px;
+    }
+    .feedback_left_conteiner p {
+        text-align: center;
+        padding-top: 30px;
+    }
 }

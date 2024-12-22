@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
-    <title>Document</title>
+    <title>Main page</title>
 </head>
 <body>
     <div class="header">
         <div class="logo_conteiner">
-            <a href="#">
+            <a href="./index.html">
                 <img src="./img/Logo_1.svg" alt="Logo">
             </a>
             <a href="#" id="logo_second">
@@ -20,10 +20,10 @@
             <a href="#" id="burger_open_element">
                 <img src="./img/Logo_element_1.svg" alt="element1">
             </a>
-            <a href="#">
+            <a href="./catalog.html">
                 <img src="./img/Logo_element_2.svg" alt="element2">
             </a>
-            <a href="#">
+            <a href="./cart.html">
                 <img src="./img/Logo_element_3.svg" alt="element3">
             </a>
         </div>
@@ -77,19 +77,19 @@
     </section>
     <section class="pic_about">
         <div class="conteiner_pic_about">
-            <p class="conteiner_pic_text">
+            <p class="conteiner_pic_text one">
                 <span class="conteiner_pic-one">30% OFF</span>
                 <span class="conteiner_pic-two">FOR WOMEN</span>
             </p>
         </div>
         <div class="conteiner_pic_about">
-            <p class="conteiner_pic_text">
+            <p class="conteiner_pic_text two">
                 <span class="conteiner_pic-one">HOT DEAL</span>
                 <span class="conteiner_pic-two"> FOR MEN</span>
             </p>           
         </div>
         <div class="conteiner_pic_about">
-            <p class="conteiner_pic_text">
+            <p class="conteiner_pic_text tree">
                 <span class="conteiner_pic-one">NEW ARRIVALS</span>
                 <span class="conteiner_pic-two">FOR KIDS</span>
             </p>
@@ -277,29 +277,6 @@
             </button>
         </div>
     </footer>
-    <script>
-       document.getElementById('burger_open_element').addEventListener('click', function (e) {
-            e.preventDefault();
-            const burgerMenu = document.querySelector('.burger');
-            burgerMenu.classList.toggle('open');
-        });
-
-        const closeButton = document.querySelector('.burger img');
-
-        closeButton.addEventListener('click', function () {
-            const burgerMenu = document.querySelector('.burger');
-            burgerMenu.classList.remove('open');
-        });
-
-        document.querySelectorAll('.burger_item_element').forEach(item => {
-            item.addEventListener('click', function () {
-                this.classList.toggle('active');
-                const submenu = this.nextElementSibling;
-                if (submenu) {
-                    submenu.classList.toggle('active');
-                }
-            });
-        });
-    </script>
+    <script type="module" src="./js/script.js"></script>
 </body>
 </html>

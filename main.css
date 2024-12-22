@@ -7,3 +7,5 @@
 @import './style/section/section_fetured_items.css';
 @import './style/section/section_info_black.css';
 @import './style/section/section_feedback.css';
+@import './style/section_cart/style_cart.css';
+@import './style/section_catalog/style_catalog.css'
